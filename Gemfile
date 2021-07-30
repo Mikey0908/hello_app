@@ -10,7 +10,7 @@ gem 'jbuilder',   '2.9.1'
 gem 'bootsnap',   '1.4.5', require: false
 
 group :development do
-  gem 'sqlite3', '1.4.1'
+  gem 'pg'
   gem 'byebug',  '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
   gem 'web-console',           '4.0.1'
   gem 'listen',                '3.1.5'
@@ -19,7 +19,7 @@ group :development do
 end
 
 group :test do
-  gem 'sqlite3', '1.4.1'
+  gem 'pg'
   gem 'byebug',  '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara',           '3.28.0'
   gem 'selenium-webdriver', '3.142.4'
@@ -27,7 +27,7 @@ group :test do
 end
 
 group :production do
-  gem 'pg', '1.1.4'
+  gem 'pg'
 end
 
 # Windows ではタイムゾーン情報用の tzinfo-data gem を含める必要があります
