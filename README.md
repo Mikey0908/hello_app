@@ -1,24 +1,3 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[2021-07-31 6:04] /Library/Developer  $heroku create
+Creating app... done, ⬢ fast-ocean-62878
+https://fast-ocean-62878.herokuapp.com/ | https://git.heroku.com/fast-ocean-62878.git
